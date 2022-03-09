@@ -1,0 +1,86 @@
+/* base styles */
+html, 
+body {
+    width: 100%;
+    margin: 10;
+    padding: 10;
+  
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(253, 246, 237);
+    color: #303030;
+}
+
+
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    
+}
+
+button {
+    font-weight: 600;
+    background-color: #9df0e2;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #000 ;
+    color: #fff;
+}
+
+/* Game styles */
+.start-btn {
+    font-size: 1.5rem;
+    
+    padding: .1em .5em ;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+
+.grid {
+   
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    border: solid 2px black;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.snake {
+    background-color: green;
+}
+.apple {
+    background-color: blue;
+    border-radius: 0;
+}
+
+/* restart div */
+
+.restart-container {
+    display: none;
+    text-align: center;
+}
+
+.restart-h1 {
+    font-size: 4rem;
+}
+
+.restart-btn {
+    letter-spacing: 1.3px;
+    font-size: 3rem;
+    padding: .5em 1.5em;
+}
